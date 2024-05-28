@@ -1,0 +1,17 @@
+.header {
+    background-color: green;
+    padding: 5px;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.header div {
+    background-color: rgb(3, 59, 3);
+    border-radius: 3px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
